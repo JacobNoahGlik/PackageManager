@@ -11,7 +11,7 @@ import subprocess
 import os
 import shutil
 import sys
-from terminal import running_on_PowerShell, is_running_on_mac, is_externally_managed
+from Terminal import running_on_PowerShell, is_running_on_mac, is_externally_managed
 
 def check_venv_module():
     """Check if the venv module is available."""
